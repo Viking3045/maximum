@@ -1,0 +1,59 @@
+.location {
+  &__close {
+    display: flex;
+    top: 12px;
+    right: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    transition: fill 300ms $timing-function;
+  }
+
+  &__title {
+    @include mq(tablet) {
+      margin-bottom: 32px;
+    }
+  }
+
+  &__wrapper {
+    width: 100%;
+    max-width: 224px;
+    max-height: 199px;
+    margin-bottom: 24px;
+    @include mq(tablet) {
+      max-width: 448px;
+      max-height: 260px;
+      margin-bottom: 32px;
+    }
+  }
+
+  &__map {
+    max-width: inherit;
+    max-height: inherit;
+  }
+
+  &__btn {
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    @include mq(tablet) {
+      margin-top: 0;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      background-color: inherit;
+    }
+    &:focus {
+      text-decoration: none;
+      background-color: inherit;
+      color: $focus-color;
+    }
+  }
+}
