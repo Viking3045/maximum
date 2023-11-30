@@ -55,7 +55,27 @@
     line-height: 1.4;
     margin-bottom: 24px;
   }
+
+  &__list {
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+    
+  }}
+
+
+.join-instagram {
+  &__link {
+    &:hover .join-instagram__icon,
+    &:focus .join-instagram__icon {
+      fill: green;
+    }
+  }
+  &__icon {
+    fill: $primary-bg-color;
+  }
 }
+
 
 .composition {
   display: flex;
