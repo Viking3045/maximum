@@ -117,7 +117,7 @@
       position: relative;
       left: 50%;
       transform: translateX(-50%);
-      background-image: url(../images/products/products1_tab+mob_@1x.png);
+      background-image: url(../images/brends/Instagram_logo_2022.png);
       background-size: cover;
       width: 200px;
       height: 200px;
@@ -125,38 +125,38 @@
       border-radius: 50%;
       box-shadow: 0 $shadow-height 0 0 rgba(156, 190, 143, 0.7),
         0 $shadow-height 0 0 #d9d9d9, 0 16px 20px rgba(10, 136, 23, 0.25);
-      @media (min-resolution: 2dppx) {
-        background-image: url(../images/products/products1_tab+mob_@2x.png);
-      }
-      @include mq(desktop) {
-        box-shadow: 0 $shadow-height 0 0 rgba(156, 190, 143, 0.7),
-          0 $shadow-height 0 0 #d9d9d9, 0 16px 20px rgba(10, 136, 23, 0.25);
-        margin: -213px 0 46px;
-        width: 302px;
-        height: 302px;
-        background-image: url(../images/products/products1_desk_@1x.png);
-        @media (min-resolution: 2dppx) {
-          background-image: url(../images/products/products1_desk_@2x.png);
-        }
-      }
+      // @media (min-resolution: 2dppx) {
+      //   background-image: url(../images/products/products1_tab+mob_@2x.png);
+      // }
+      // @include mq(desktop) {
+      //   box-shadow: 0 $shadow-height 0 0 rgba(156, 190, 143, 0.7),
+      //     0 $shadow-height 0 0 #d9d9d9, 0 16px 20px rgba(10, 136, 23, 0.25);
+      //   margin: -213px 0 46px;
+      //   width: 302px;
+      //   height: 302px;
+      //   background-image: url(../images/products/products1_desk_@1x.png);
+      //   @media (min-resolution: 2dppx) {
+      //     background-image: url(../images/products/products1_desk_@2x.png);
+      //   }
+      // }
     }
 
     &--second {
       background: $second-cards-color;
 
       &::before {
-        background-image: url(../images/products/products2_tab+mob_@1x.png);
+        background-image: url(../images/brends/Tiktok_logo_text.png);
         box-shadow: 0 $shadow-height 0 0 rgba(248, 210, 78, 0.7),
           0 $shadow-height 0 0 #d9d9d9, 0 16px 20px rgba(153, 114, 23, 0.25);
-        @media (min-resolution: 2dppx) {
-          background-image: url(../images/products/products2_tab+mob_@2x.png);
-        }
-        @include mq(desktop) {
-          background-image: url(../images/products/products2_desk_@1x.png);
-          @media (min-resolution: 2dppx) {
-            background-image: url(../images/products/products2_desk_@2x.png);
-          }
-        }
+        // @media (min-resolution: 2dppx) {
+        //   background-image: url(../images/products/products2_tab+mob_@2x.png);
+        // }
+        // @include mq(desktop) {
+        //   background-image: url(../images/products/products2_desk_@1x.png);
+        //   @media (min-resolution: 2dppx) {
+        //     background-image: url(../images/products/products2_desk_@2x.png);
+        //   }
+        // }
       }
     }
 
@@ -164,18 +164,46 @@
       background: $third-cards-color;
 
       &::before {
-        background-image: url(../images/products/products3_tab+mob_@1x.png);
+        background-image: url(../images/brends/YouTube_Logo_2017.png);
         box-shadow: 0 $shadow-height 0 0 rgba(213, 117, 63, 0.7),
           0 $shadow-height 0 0 #d9d9d9, 0 16px 20px rgba(0, 0, 0, 0.25);
-        @media (min-resolution: 2dppx) {
-          background-image: url(../images/products/products3_tab+mob_@2x.png);
-        }
-        @include mq(desktop) {
-          background-image: url(../images/products/products3_desk_@1x.png);
-          @media (min-resolution: 2dppx) {
-            background-image: url(../images/products/products3_desk_@2x.png);
-          }
-        }
+        // @media (min-resolution: 2dppx) {
+        //   background-image: url(../images/products/products3_tab+mob_@2x.png);
+        // }
+        // @include mq(desktop) {
+        //   background-image: url(../images/products/products3_desk_@1x.png);
+        //   @media (min-resolution: 2dppx) {
+        //     background-image: url(../images/products/products3_desk_@2x.png);
+        //   }
+        // }
+      }
+    }
+    
+    &--fourth {
+      background: $fourth-cards-color;
+
+      &::before {
+        background-image: url(../images/brends/Telegram_2019_Logo.png);
+        box-shadow: 0 $shadow-height 0 0 rgb(10, 117, 136),
+          0 $shadow-height 0 0 #d9d9d9, 0 16px 20px rgba(0, 0, 0, 0.25);
+      }
+    }
+    &--fifth {
+      background: $fourth-cards-color;
+
+      &::before {
+        background-image: url(../images/brends/2021_Facebook_icon.png);
+        box-shadow: 0 $shadow-height 0 0 rgb(10, 117, 136),
+          0 $shadow-height 0 0 #d9d9d9, 0 16px 20px rgba(0, 0, 0, 0.25);
+      }
+    }
+    &--sixth {
+      background: $third-cards-color;
+
+      &::before {
+        background-image: url(../images/brends/p2111115.webp);
+        box-shadow: 0 $shadow-height 0 0 rgba(213, 117, 63, 0.7),
+          0 $shadow-height 0 0 #d9d9d9, 0 16px 20px rgba(0, 0, 0, 0.25);
       }
     }
   }
