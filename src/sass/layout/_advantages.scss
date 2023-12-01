@@ -1,12 +1,12 @@
 .advantages {
-  padding-top: 0;
+  padding-top: 64px;
   padding-bottom: 64px;
   background-color: $primary-bg-color;
   @include mq(tablet) {
     padding-bottom: 204px;
   }
   @include mq(desktop) {
-    padding-bottom: 178px;
+    padding-bottom: 64px;
   }
 
   &__list {
@@ -40,11 +40,11 @@
     color: $white-text-color;
     @include mq(tablet) {
       text-transform: lowercase;
-      font-size: 48px;
+      font-size: 22px;
       line-height: calc(59 / 48);
     }
     @include mq(desktop) {
-      font-size: 58px;
+      font-size: 42px;
       line-height: calc(71 / 58);
     }
 
@@ -67,21 +67,26 @@
     height: 50px;
     border-radius: 50px;
 
-    background-color: $accent-color;
-    background-image: url(/src/images/advantages/cow.png);
+    background-color: $primary-bg-color;
+    background-image: url(/src/images/brends/like.png);
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-left: auto;
+    margin-right: auto;
     @include mq(tablet) {
       transform: translateX(16px);
+      margin-left: 50px;
     }
     @include mq(desktop) {
+      margin-left: 110px;
       transform: translateX(25px);
     }
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-size: 36px 36px;
-      background-image: url(/src/images/advantages/cow@2x.png);
+      background-size:cover;
+      background-image: url(/src/images/brends/like.png);
     }
   }
 
@@ -93,21 +98,25 @@
     height: 50px;
     border-radius: 50px;
 
-    background-color: $accent-color;
-    background-image: url(/src/images/advantages/weight.png);
+    background-color: $primary-bg-color;
+    background-image: url(/src/images/brends/coment.png);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin-left:155px;
     @include mq(tablet) {
       transform: translateX(37px);
+      margin-left: 30px;
     }
     @include mq(desktop) {
       transform: translateX(48px);
+      margin-left: 90px;
     }
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-size: 36px 36px;
-      background-image: url(/src/images/advantages/weight@2x.png);
+      background-image: url(/src/images/brends/coment.png);
     }
   }
 
@@ -118,21 +127,26 @@
     height: 50px;
     border-radius: 50px;
 
-    background-color: $accent-color;
-    background-image: url(/src/images/advantages/ice-crema.png);
+    background-color: $primary-bg-color;
+    background-image: url(/src/images/brends/wotch.png);
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-left: auto;
+    margin-right: auto;
     @include mq(tablet) {
       transform: translateX(10px);
+      margin-left: 50px;
     }
     @include mq(desktop) {
       transform: translateX(15px);
+      margin-left: 110px;
     }
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-size: 36px 36px;
-      background-image: url(/src/images/advantages/ice-crema@2x.png);
+        background-size:cover;
+      background-image: url(/src/images/brends/wotch.png);
     }
   }
 

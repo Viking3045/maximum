@@ -1,25 +1,25 @@
 .products {
-  background: url(../images/bcg/bcg_mob_@1x.png) calc(50% - 40px) -120px / 857px
+  background: url(../images/brends/TELEFONNYE-PRILOZENIY--DEVOCKA--SERDTE-S-KOTYTAMI--KLASS-ROZOVYI.md.png) calc(50% - 40px) -120px / 857px
     1188px;
   text-align: center;
   padding: 60px 0;
-  @media (min-resolution: 2dppx) {
-    background-image: url(../images/bcg/bcg_mob_@2x.png);
-  }
-  @include mq(tablet) {
-    background-image: url(../images/bcg/bcg_tab_@1x.png);
-    background-size: 940px 996px;
-    @media (min-resolution: 2dppx) {
-      background-image: url(../images/bcg/bcg_tab_@2x.png);
-    }
-  }
-  @include mq(desktop) {
-    background-image: url(../images/bcg/bcg_desk_@1x.png);
-    background-size: 1278px 1330px;
-    @media (min-resolution: 2dppx) {
-      background-image: url(../images/bcg/bcg_desk_@2x.png);
-    }
-  }
+  // @media (min-resolution: 2dppx) {
+  //   background-image: url(../images/bcg/bcg_mob_@2x.png);
+  // }
+  // @include mq(tablet) {
+  //   background-image: url(../images/bcg/bcg_tab_@1x.png);
+  //   background-size: 940px 996px;
+  //   @media (min-resolution: 2dppx) {
+  //     background-image: url(../images/bcg/bcg_tab_@2x.png);
+  //   }
+  // }
+  // @include mq(desktop) {
+  //   background-image: url(../images/bcg/bcg_desk_@1x.png);
+  //   background-size: 1278px 1330px;
+  //   @media (min-resolution: 2dppx) {
+  //     background-image: url(../images/bcg/bcg_desk_@2x.png);
+  //   }
+  // }
 
   &__label {
     display: block;
@@ -201,7 +201,7 @@
       background: $third-cards-color;
 
       &::before {
-        background-image: url(../images/brends/p2111115.webp);
+        background-image: url(../images/brends/web-pages.png);
         box-shadow: 0 $shadow-height 0 0 rgba(213, 117, 63, 0.7),
           0 $shadow-height 0 0 #d9d9d9, 0 16px 20px rgba(0, 0, 0, 0.25);
       }
