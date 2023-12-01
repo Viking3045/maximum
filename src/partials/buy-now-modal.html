@@ -5,7 +5,7 @@
         <use href="./images/sprite.svg#close"></use>
       </svg>
     </button>
-    <h2 class="modal__title">Buy now</h2>
+    <h2 class="modal__title">Замовити зараз</h2>
 
     <form name="modal-buy" class="modal-buy__form">
       <div class="modal-buy__products">
@@ -32,7 +32,7 @@
                 width="132"
               />
             </span>
-            <span class="modal-buy__product">ICE CREAM</span>
+            <span class="modal-buy__product">INSTAGRAM</span>
           </span>
         </label>
         <label for="icecoffee" class="modal-buy__label">
@@ -58,7 +58,7 @@
                 width="132"
               />
             </span>
-            <span class="modal-buy__product">ICE COFFEE</span>
+            <span class="modal-buy__product">FACEBOOK</span>
           </span>
         </label>
         <label for="milkshake" class="modal-buy__label">
@@ -85,48 +85,37 @@
                 width="132"
               />
             </span>
-            <span class="modal-buy__product">MILKSHAKE</span>
+            <span class="modal-buy__product">TIK TOK</span>
           </span>
         </label>
       </div>
-      <div class="modal-buy__userarea">
-        <label for="user-name" class="modal-buy__about">
-          <input
-            name="user-name"
-            id="user-name"
-            type="text"
-            placeholder="Name"
-            class="modal-buy__input"
-            title="Enter your name"
-            pattern="[A-Za-z]+"
-            required
-          />
-        </label>
-        <label for="user-tel" class="modal-buy__about">
-          <input
-            name="user-tel"
-            id="user-tel"
-            type="tel"
-            placeholder="Phone"
-            class="modal-buy__input"
-            title="for example: 0961234567"
-            required
-            pattern="[0-9]{10}"
-          />
-        </label>
-        <label for="coment" class="modal-buy__about">
-          <textarea
-            name="coment"
-            id="coment"
-            cols="30"
-            rows="10"
-            class="modal-buy__input modal-buy__input--comment"
-            placeholder="Comment"
-            minlength="12"
-          ></textarea>
-        </label>
-      </div>
-      <button type="submit" class="btn order-button">Submit</button>
     </form>
+    <h4>Для замовлення послуг оберіть зручну для вас соціальну мережу</h4>
+    <ul class="product-modal__list">
+        <li class="join__item">
+            <a
+              class="join__link"
+              href="https://t.me/maksdoboni"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <svg class="join__icon" width="34" height="34">
+                <use href="./images/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="join-instagram__item">
+            <a
+              class="join-instagram__link"
+              href="https://instagram.com/maks_doboni?igshid=NzZlODBkYWE4Ng=="
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <svg class="join-instagram__icon" width="34" height="34">
+                <use href="./images//sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+    </ul>
   </div>
 </div>
