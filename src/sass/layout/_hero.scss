@@ -1,5 +1,56 @@
+.znizhka{
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 50%;
+ width: 200px;
+ height: 200px;
+ background-color:#39B54A;
+ @include mq(tablet) {
+  width: 250px;
+  height: 250px;
+}
+@include mq(desktop) {
+  width: 300px;
+  height: 300px;
+}
+  
+}
+.first{
+  text-align: center;
+  color: white;
+  font: 12px / 1.62 Montserrat, Arial, Helvetica, sans-serif;
+  // font-family: $secondary-fon;
+  // font-size: 8px;
+  // font-weight: 400;
+  // line-height: 2.5;
+  // letter-spacing: 0.04em;
+  margin: 0;
+  padding: 0;
+  @include mq(tablet) {
+    font: 16px / 1.62 Montserrat, Arial, Helvetica, sans-serif;
+  }
+}
+.second{
+  color: white;
+  text-align: center;
+  font: 12px / 1.62 Montserrat, Arial, Helvetica, sans-serif;
+  // font-size: 8px;
+  // font-weight: 400;
+  // line-height: 1.26;
+  // letter-spacing: 0.04em;
+  margin-bottom: 30px;
+  text-decoration:line-through;
+  @include mq(tablet) {
+    font: 16px / 1.62 Montserrat, Arial, Helvetica, sans-serif;
+  }
+
+}
+
 .hero {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 236px;
   margin: 0 auto;
   position: relative;
