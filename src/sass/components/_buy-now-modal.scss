@@ -11,6 +11,10 @@
   overflow: scroll;
   transition: opacity 300ms $timing-function, opacity 300ms $timing-function;
 
+
+  &__salary{
+    margin-top: 50px;
+  }
   &__close {
     display: flex;
     justify-content: center;
@@ -53,23 +57,23 @@
 
   &__item {
     display: block;
-    margin-top: 90px;
+    margin-top: 120px;
     margin-left: auto;
     margin-right: auto;
     width: 132px;
     height: 135px;
-    border: 2px solid #96af8c;
+    border: 2px solid #943532;
     border-radius: 10px 10px 15px 15px;
     text-align: center;
     cursor: pointer;
     transition: background-color 250ms $timing-function;
 
     &--coffee {
-      border-color: $second-cards-color;
+      border-color: #3b5998;
     }
 
     &--milkshake {
-      border-color: $third-cards-color;
+      border-color: #000000;
     }
 
     @include mq(tablet) {
@@ -83,40 +87,43 @@
     margin-left: -1px;
     width: 130px;
     height: 130px;
-    background-color: $decor-elements-color;
     border-radius: 50%;
-    background: linear-gradient(
-        0deg,
-        rgba(156, 190, 143, 0.7),
-        rgba(156, 190, 143, 0.7)
-      ),
-      #d9d9d9;
-    box-shadow: 0px 5.26027px 19.726px rgba(10, 136, 23, 0.25);
-
-    &--coffee {
-      background: linear-gradient(
-          0deg,
-          rgba(248, 210, 78, 0.7),
-          rgba(248, 210, 78, 0.7)
-        ),
-        #d9d9d9;
-      box-shadow: 0px 5.26027px 19.726px rgba(153, 114, 23, 0.25);
-    }
-
-    &--milkshake {
-      background: linear-gradient(
-          0deg,
-          rgba(213, 117, 63, 0.7),
-          rgba(213, 117, 63, 0.7)
-        ),
-        #d9d9d9;
-      box-shadow: 0px 5.26027px 19.726px rgba(0, 0, 0, 0.25);
-    }
   }
 
   &__png {
     display: block;
     margin-top: -134px;
+    border-radius: 50%;
+
+    &::before {
+      content: '';
+      display: block;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      background-image: url(../images/brends/Instagram_logo_2022.png);
+      background-size: cover;
+      width: 135px;
+      height: 135px;
+      margin: -138px 0 31px;
+      border-radius: 50%;
+
+    }
+
+    &--second {
+
+      &::before {
+        background-image: url(../images/brends/2021_Facebook_icon.png);
+      }
+    }
+
+    &--third {
+
+
+      &::before {
+        background-image: url(../images/brends/Tiktok_logo_text.png);
+      }
+    }
   }
 
   &__product {
@@ -126,7 +133,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.04em;
-    padding-top: 35px;
+    padding-top: 55px;
   }
 
   &__label {
@@ -215,15 +222,15 @@
 }
 
 .modal-buy__checkbox:checked + .modal-buy__item {
-  background-color: #96af8c;
+  background-color: #943532;
 }
 
 .modal-buy__checkbox:checked + .modal-buy__item--coffee {
-  background-color: $second-cards-color;
+  background-color: #3b5998;
 }
 
 .modal-buy__checkbox:checked + .modal-buy__item--milkshake {
-  background-color: $third-cards-color;
+  background-color: #000000;
 }
 
 .order-button {

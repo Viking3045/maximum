@@ -152,12 +152,13 @@
 .ingredients {
   display: flex;
   flex-wrap: wrap;
-  font-size: 14px;
+  font-size: 6.5px;
   line-height: 1.76;
   letter-spacing: 0.04em;
   margin-bottom: 39px;
   @include mq(tablet) {
     margin-bottom: 48px;
+    font-size: 14px;
   }
 
   &__compound {

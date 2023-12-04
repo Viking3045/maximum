@@ -1,6 +1,7 @@
 // header
 .hero-header {
   background-color: $primary-bg-color;
+  
 }
 
 .header {
@@ -15,6 +16,9 @@
     @include mq(desktop) {
       padding-top: 12px;
     }
+  }
+  &__picture{
+    width:30px;
   }
 
   &__logo {

@@ -17,7 +17,7 @@
     padding-bottom: 65px;
     max-width: 1200px;
   }
-
+  
   &__container {
     @include mq(tablet) {
       display: flex;
